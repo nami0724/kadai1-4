@@ -1,0 +1,509 @@
+/*BODY*/
+  
+body{
+  /*◎*/color: #333;
+  /*◎*/font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  /*◎*/font-size: 14px;
+  /*◎*/font-weight: 500;
+  margin: 0;
+  padding: 0;
+  display: block;
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+ background-size: 100%;
+  background-repeat: no-repeat;
+}
+padding-top{
+  padding-top: 0px;
+}
+
+.header{
+  /*max-width: 1080%;*/
+  width: 100%;
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/*◎*/.HeaderContainer{
+  display: flex;
+  justify-content: space-between;
+  margin:0 36px;
+  max-width: 100%;
+  position: relative;
+}
+
+header{
+  display: block;
+}
+.Hamburger_line{
+  cursor: pointer;
+  display:none;
+  width: 30px;
+  height: 21px;
+  z-index: 100;
+  right: 10px;
+  position: absolute;
+  top:0%;
+  right: 0%;
+}
+
+/*左上POTEPAN CAMP*/
+.HeaderLogo_image--pc{
+  display:block;
+  height: 20px;
+  width: auto;
+}
+.HeaderLogo img{
+  border: 0;
+  vertical-align: middle;
+}
+
+
+.lazyload{
+  background-image: none !important;
+}
+.HeaderLogo a{
+  color: #333;
+  text-decoration: none;
+}
+.HeadeLogo_image--sp{
+  display: none;
+  height: 16px;
+  width: auto;
+}
+
+.main {
+  display: block;
+}
+
+/*上記メニュー*/
+
+/*◎*/.HeaderContainer>*:last-child{
+  display: inline-flex;
+}
+.HeaderNavList{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  margin:0;
+  padding:0;
+}
+.HeaderNavList a{
+  color: #333;
+  text-decoration: none;
+}
+.HeaderNavListItem:hover{
+  transition: opacity .2;
+}
+
+.HeaderNav{
+  display: none;
+}
+
+
+
+.HeaderNavListItem {
+  display: block;
+  margin-right: 45px;
+  transition: .2s;
+  line-height:10px;
+}
+
+.HeaderNavListItem_Link{
+  display: block;
+}
+.HeaderNavListItem li{
+  margin:0;
+  padding: 0;
+}
+.HeaderNavListItem_Link>span:first-child{
+  font-family: 'Lato',sans-serif;
+}
+.HeaderNavListItm_Link>span {
+  display: block;
+  font-weight: 700;
+  text-align: center;
+}
+.HeaderNavList_Link>span:last-child{
+  font-size: 10px;
+}
+.HeaderNavListItem_Link>span{
+  display: block;
+  font-weight: 700;
+  text-align: center;
+}
+.HeaderNavList a{
+  color: #333;
+  text-decoration: none;
+}
+.HeaderNavListItem_button:visited{
+  color: #fff;
+}
+.HeaderNavListItem_button{
+  align-items: center;
+  background-color: #f79214;
+  border: none;
+  border-radius: 38px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  height: 40px;
+  padding: 0 20px;
+}
+.HeaderNavListItem_button:hover {
+  opacity: 0.2;
+}
+
+
+/*背景青年*/
+/*.FirstView_main-image--sp{*/
+/*  display: none;*/
+/*}*/
+/*.FirstView_main-image{*/
+/*  width: 100%;*/
+/*}*/
+/*.FirstView{*/
+/*  background-image: none;*/
+/*  padding-top: 0;*/
+/*  padding-bottom: 35px;*/
+/*}*/
+/*.FirstView{*/
+/*  background-image: url(*/
+/*  url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);*/
+/*  background-size: cover;*/
+/*  background-position: center;*/
+/*  padding-top: 100px;*/
+/*  padding-bottom: 28px;*/
+/*}*/
+.FirstView_main_image_pc{
+  
+}
+.FirstView_main_image_tab{
+  display:none;
+}
+.FirstView section{
+  display: block;
+}
+.FirstView_Container{
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.FirstViewContent{
+  margin-bottom: 70px;
+  width: fit-content;
+}
+/* .FirstView {*/
+/*  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);*/
+/*  background-size: cover;*/
+  /*background-position: center;*/
+/*  padding-top: 100px;*/
+/*  padding-bottom: 28px;*/
+/*}*/
+.FirstView_main_image_pc{
+  size: auto;
+  width: 100%;
+  height: auto;
+}
+.FirstView_main_image_tab{
+  display: none;
+}
+ /*中央ボタン*/
+.FirstViewContent_buttons{
+  display: flex;
+}
+.FirstViewContent_buttons div{
+  margin: 0;
+  padding: 0;
+}
+.FirstViewContent_buttons a:first-of-type {
+  margin-right: 15px;
+  width: 306px;
+}
+.FirstViewContent_buttons a:visited{
+  color: #fff;
+}
+
+.FirstViewContent_buttons a{
+  align-items: center;
+  background-color: #f79214;
+  border: none;
+  border-radius: 38px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  color:#fff;
+}
+.FirstViewContent_buttons:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.FirstViewContent_buttons a:last-of-type{
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  color: #333;
+  width:176px;
+}
+.FirstViewContent_buttons a:last-of-type{
+  align-items: center;
+  border-radius: 38px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  justify-content: center;
+  /*text-decoration: none;*/
+  text-align: center;
+}
+
+
+/*見出し*/
+.month {
+  color: #333;
+  font-family: 'Lato',sans-serif;
+  font-size: 38px;
+  font-weight:700;
+  line-height: 54px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.month h2{
+  margin: 0;
+  padding: 0;
+}
+/*中央画像*/
+.images{
+  margin-bottom: 25px;
+}
+.images div{
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.images image{
+  margin-right: 8px;
+  border: 0px;
+  vertical-align: middle;
+}
+
+.images image:nth-of-type(2){
+  width: 40%;
+  margin-right: 8px;
+}
+
+.images img:last-of-type{
+  margin-right: 0;
+}
+ 
+.images div{
+  margin: 0;
+  padding: 0;
+}
+
+/*中央ボタン*/
+.FirstViewContent_button{
+  display: flex;
+}
+.FirstViewContent_button a:first-of-type{
+  margin-right: 15px;
+  width: 306px;
+}
+.FirstViewContent_button a:visited{
+  color: #fff;
+}
+
+.FirstViewContent_button a{
+  align-items: center;
+  background-color: #f79214;
+  border: none;
+  border-radius: 38px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+}
+.HeaderNavListItem_button:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.FirstViewContent_button a:last-of-type{
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  color: #333;
+  width:176px;
+}
+.FirstViewContent_button a:last-of-type{
+  align-items: center;
+  border-radius: 38px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*中央米印*/
+.FirstViewCaption{
+  color: #a2a2a4;
+  font-size: 12px;
+}
+.FirstViewCaption a {
+  color: #a2a2a4;
+  font-size: 12px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.FirstViewCaption p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+/*a:-webkit-any-link{*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*下部オレンジ*/
+.AboutWrapper{
+  background-color: #f79214;
+  padding:44px 0;
+}
+div{
+  display: block;
+}
+.About{
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+/*下部YouTube*/
+.youtube{
+  width: 50%;
+}
+video{
+  object-fit:  contain;
+}
+/*下部POTEPAN CAMPとは*/
+.About_title{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 0;
+  margin-left: 32px;
+}
+
+.About_title h2{
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+ font-size: 38px;
+ font-weight: 900;
+ letter-spacing:  .1em;
+ line-height: 54px;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+.About_title h2{
+  color: #fff;
+}
+
+.About_title h2>span{
+  font-family: 'Lato',sans-serif;
+  font-size: 38px;
+}
+
+.About_title h2 span{
+  font-weight: 900;
+}
+
+.About_title p{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.About_title p{
+  color: #fff;
+  text-align: left;
+}
+
+/*矢印＆学習内容*/
+.About_button{
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.About_button a{
+  text-decoration:none;
+}
+
+/*固定ボタン*/
+.FixedFooter{
+  bottom: 28px;
+  position: fixed;
+  right: 4px;
+  z-index: 10;
+}
+.FixedFooter div{
+  margin: 0;
+  padding: 0;
+}
+
+
+.kaunn img{
+  cursor: pointer;
+  display: flex;
+  max-width:400px;
+  border: 0;
+}
+
+.kaunn{
+  vertical-align: middle;
+}
+
